@@ -1,0 +1,23 @@
+{
+    "name":  "canvas-gdocs-grading-app",
+    "version":  "1.0.0",
+    "description":  "An app for embedding Google Docs in Canvas with easy grading",
+    "main":  "index.js",
+    "scripts":  {
+                    "dev":  "vercel dev"
+                },
+    "dependencies":  {
+                         "@googleapis/docs":  "^2.0.0",
+                         "cors":  "^2.8.5",
+                         "express":  "^4.18.2"
+                     },
+    "devDependencies":  {
+                            "http-server":  "^14.1.1",
+                            "vercel":  "^28.4.0"
+                        },
+    "keywords":  [
+
+                 ],
+    "author":  "",
+    "license":  "ISC"
+}
